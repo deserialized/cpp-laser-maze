@@ -1,5 +1,5 @@
-#include "Menu.h"
-#include "MainMenu.h"
+#include "menus/Menu.h"
+#include "menus/MainMenu.h"
 
 int main() {
   // Initial terminal clear
