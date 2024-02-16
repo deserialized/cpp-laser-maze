@@ -1,15 +1,16 @@
 #include "Menu.h"
+#include "MainMenu.h"
 
 int main() {
-  Menu menu;
+  // Initial terminal clear
+  Menu::clear();
+
+  // Inheritance test
+  MainMenu menu;
   menu.init();
+  menu.run();
 
-  // Test interaction
+  // Final terminal clear
   Menu::clear();
-  menu.display_static();
-  Menu::display_query("How are you?");
-  Menu::clear();
-  Menu::display_query("Cool!");
-
   return 0;
 }

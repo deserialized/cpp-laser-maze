@@ -7,7 +7,8 @@ class Menu {
 public:
   // Constructor
   Menu();
-  // Initialisation
+
+  virtual // Initialisation
   void init();
   // Display content
   static void display(const std::string&);

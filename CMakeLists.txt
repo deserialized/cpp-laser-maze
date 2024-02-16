@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(cpp_laser_maze
     src/main.cpp
     src/Menu.cpp
-    src/Menu.h)
+    src/Menu.h
+    src/MainMenu.cpp
+    src/MainMenu.h)
