@@ -8,8 +8,8 @@ public:
   // Constructor
   Menu();
 
-  virtual // Initialisation
-  void init();
+  // Initialisation
+  virtual void init();
   // Display content
   static void display(const std::string&);
   void display_static();
