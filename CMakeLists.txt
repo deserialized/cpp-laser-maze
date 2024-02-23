@@ -15,4 +15,7 @@ add_executable(cpp_laser_maze
     src/pieces/Piece.h
     src/utils/Maze.cpp
     src/utils/Maze.h
+    src/utils/Laser.cpp
+    src/utils/Laser.h
+    src/utils/Colours.h
 )
