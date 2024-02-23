@@ -1,7 +1,8 @@
 #include "menus/Menu.h"
 #include "menus/MainMenu.h"
 
-int main() {
+int main()
+{
   // Initial terminal clear
   Menu::clear();
 
