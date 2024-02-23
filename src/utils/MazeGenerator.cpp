@@ -25,13 +25,6 @@ void MazeGenerator::init()
  */
 Maze MazeGenerator::generate_maze()
 {
-  // Construct grid
-  std::vector<std::vector<Piece>> maze;
-
-  // Initialise grid
-  const int size = calculate_maze_size();
-
-  // Populate grid
 
 }
 
